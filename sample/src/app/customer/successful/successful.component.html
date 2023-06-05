@@ -4,34 +4,34 @@
             <h4>transactional successful</h4><br>
             <div>
                 <h5>Ticket details:</h5>
-                <table class="table" >
+                <table class="table" *ngFor="let kk of r">
                     <tr>
                         <td>purchaseid</td>
-                        <td>102</td>
+                        <td>{{kk.purchaseid}}</td>
                     </tr>
                     <tr>
                         <td>name</td>
-                        <td>kgf2</td>
+                        <td>{{kk.k.pro.name}}</td>
                     </tr>
                     <tr>
                         <td>category</td>
-                        <td>action</td>
+                        <td>{{kk.k.pro.category}}</td>
                     </tr>
                     <tr>
                         <td>cost</td>
-                        <td>4500</td>
+                        <td>{{kk.k.pro.cost}}</td>
                     </tr>
                     <tr>
                         <td>quantity</td>
-                        <td>10</td>
+                        <td>{{kk.quantity}}</td>
                     </tr>
                    <tr>
                     <td>timings</td>
-                        <td>10.00</td>
+                        <td>1{{kk.k.pro.timings}}</td>
                    </tr>
                    <tr>
                     <td>day</td>
-                    <td>25/06/2023</td>
+                    <td>{{kk.k.pro.day}}</td>
                    </tr>
                 
                 </table>
