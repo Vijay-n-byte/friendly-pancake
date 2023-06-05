@@ -1,0 +1,42 @@
+
+
+.cop1{
+    height: 60px;
+}
+
+.cop2{
+    height:300px;
+}
+
+
+.container-fluid{
+    
+    border:2px solid black;
+    
+}
+
+
+td{
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.col-3{
+    border:2px solid black;
+    height:45vh;
+    
+}
+.imgblock{
+    height: 35%;
+}
+.infoblock{
+    height:45%;
+}
+.buttonsections{
+    height:20%;
+}
+input[type="text"]{
+    width:230px;
+    margin-right: 10px;
+}
+

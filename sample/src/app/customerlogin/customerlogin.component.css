@@ -1,0 +1,36 @@
+.container-fluid{
+    border:10px solid black;
+    height: 100vh;
+    background-image: url('https://cdn.ebaumsworld.com/mediaFiles/picture/2183782/84520950.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.col-lg-4{
+    border:3px solid yellowgreen;
+    background-color: white;
+    height:300px;
+    
+
+}
+form{
+    margin-top: 20px;
+}
+.form-group{
+}
+.row{
+    margin-top: 170px;
+}
+.btn{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(9, 143, 47);
+}
+
+.ng-touched .ng-invalid{
+    border:2px solid red;
+}
+.po{
+    background-image: url('https://logodix.com/logo/1713924.png');
+}
+
